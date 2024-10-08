@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/student/ros2_ws/install/turtlesim/include/**",
+        "/home/student/ros2_ws/install/turtlebot3_fake_node/include/**",
+        "/home/student/ros2_ws/install/turtlebot3_msgs/include/**",
+        "/home/student/ros2_ws/install/turtlebot3_gazebo/include/**",
+        "/home/student/ros2_ws/install/robot_localization/include/**",
+        "/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/student/ros2_ws/src/sprint/sprint3/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

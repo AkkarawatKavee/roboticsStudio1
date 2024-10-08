@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/sprint3code_uninstall.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/circle_detector.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/test.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/install.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/sprint/sprint3/src/sprint3code/build/CMakeFiles/install/strip.dir

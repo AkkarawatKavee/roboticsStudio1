@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/sprint/build/sprint3/ament_cmake_environment_hooks/local_setup.bash
