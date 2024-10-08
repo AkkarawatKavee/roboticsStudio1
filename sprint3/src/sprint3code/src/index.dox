@@ -1,0 +1,45 @@
+\mainpage Sprint 3 Documentation
+
+\section intro_sec Introduction
+This is the main page for the Sprint 3 documentation. This project is part of the ROS2 workspace.
+
+\section install_sec Installation
+\subsection step1 Step 1: Clone the repository
+\code{.sh}
+git clone https://github.com/AkkarawatKavee/roboticsStudio1.git
+\endcode
+
+\subsection step2 Step 2: Build the workspace
+\code{.sh}
+cd ~/ros2_ws
+colcon build
+
+
+\section usage_sec Usage
+\subsection run Run the node
+\code{.sh}
+ros2 run sprint3 cylinder_detector
+
+
+\section nodes_sec Nodes
+cylinder_detector: Detects cylinders using laser scan data
+
+
+\section topics_sec Topics
+/scan: Subscribes to laser scan data.
+/map: Subscribes to occupancy grid data.
+/odom: Subscribes to odometry data.
+
+\section functions_sec Functions
+CylinderDetector::CylinderDetector(): Constructor to initialize the node and subscriptions.
+void CylinderDetector::mapCallback: Callback for map data.
+cv::Mat CylinderDetector::occupancyGridToImage: Converts occupancy grid to an image.
+void CylinderDetector::scanCallback: Callback for laser scan data.
+void CylinderDetector::checkNewPoints: Checks for new detected circles.
+std::vector<std::pair<double, double>> CylinderDetector::detectCircleClusters: Detects clusters of points forming circles.
+void CylinderDetector::detectArc: Detects arcs in clusters of points.
+bool CylinderDetector::calculateCircleFromThreePoints: Calculates a circle from three points.
+void CylinderDetector::odomCallback: Callback for odometry data.
+void CylinderDetector::drawOnMap: Draws detected cylinders on the map.
+void CylinderDetector::convertToMapFrame: Converts points to the map frame.
+ 

@@ -65,6 +65,8 @@ private:
         return image;
     }
 
+    /// @brief 
+    /// @param msg 
     void scanCallback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
     {
         if (!map_received_)
@@ -137,6 +139,9 @@ private:
         }
     }
 
+    /// @brief 
+    /// @param points 
+    /// @return 
     std::vector<std::pair<double, double>> detectCircleClusters(std::vector<std::pair<double, double>> points)
     {
         std::vector<std::pair<double, double>> circle_centers;
